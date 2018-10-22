@@ -80,4 +80,7 @@ if __name__ == "__main__":
             )
 
     plot_decision_regions(X, y, ppn)
+    plt.xlabel('Sepal length')
+    plt.ylabel('Petal length')
+    plt.legend()
     plt.show()
